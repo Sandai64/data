@@ -1,5 +1,5 @@
 # data
 
-## Versions
+## Endpoints versions
 
-- [v0](./v0/)
+- [API v0](./v0/)
