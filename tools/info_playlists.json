@@ -1,37 +1,32 @@
 [
   {
-    "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw7WbCznUXYCstGtfVunmu_m",
-    "name": "90s-house",
-    "pretty_name": "90's House"
+    "url": "https://youtube.com/playlist?list=PL_9XZMErmRRW3bDdiwH_HYs26A9N2lY4e",
+    "name": "konan-collezione",
+    "pretty_name": "Collezione"
   },
   {
-    "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw6S90AAoX_jBz8S70u1cd1B",
-    "name": "hard-house",
-    "pretty_name": "Hard House"
-  },
-  {
-    "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw52xz2RF_kqMkferE139VGj",
-    "name": "old-shool-bops",
-    "pretty_name": "Old School Bops"
-  },
-  {
-    "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw5rNJdn5atCt8jBYDDNm6fu",
-    "name": "dnb-stash",
-    "pretty_name": "Erwan's DnB Stash"
+    "url": "https://youtube.com/playlist?list=PL_9XZMErmRRW74Avp-Qmbiiia211XYAui",
+    "name": "konan-maxi-best-of",
+    "pretty_name": "Maxi Best Of"
   },
   {
     "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw731192i2BODMy7m5xozfWz",
-    "name": "house-stash",
+    "name": "erwan-house-stash",
     "pretty_name": "Erwan's House Stash"
   },
   {
-    "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw6jQ2RRpBe2D_eaL6gR_o-i",
-    "name": "hand-picked-ones",
-    "pretty_name": "Hand-picked ones"
+    "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw5rNJdn5atCt8jBYDDNm6fu",
+    "name": "erwan-dnb-stash",
+    "pretty_name": "Erwan's DnB Stash"
   },
   {
     "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw70JJLGgnel0D5tR66Dtat7",
-    "name": "upfront-house",
+    "name": "erwan-upfront-house",
     "pretty_name": "Upfront House"
+  },
+  {
+    "url": "https://youtube.com/playlist?list=PLMaR1BCPHkw52xz2RF_kqMkferE139VGj",
+    "name": "erwan-old-shool-bops",
+    "pretty_name": "Old School Bops"
   }
 ]
