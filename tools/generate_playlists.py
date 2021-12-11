@@ -4,7 +4,7 @@
 from __future__ import unicode_literals
 import os
 import glob
-import youtube_dl
+import yt_dlp as youtube_dl
 import json
 import csv
 import shutil
@@ -37,7 +37,11 @@ csv_header = [
 # We're starting to count time now
 script_start_time = time.time()
 
-with youtube_dl.YoutubeDL() as yt_dl:
+yt_dl_params = {
+  'ignoreerrors': True
+}
+
+with youtube_dl.YoutubeDL(yt_dl_params) as yt_dl:
   
   # Parsed from source JSON
   for index, playlist_item in enumerate(json_playlists):
