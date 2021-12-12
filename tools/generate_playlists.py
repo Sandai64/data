@@ -51,12 +51,14 @@ with youtube_dl.YoutubeDL(yt_dl_params) as yt_dl:
     # We're gonna add the playlist author to the current item in json_playlists
     json_playlists[index]['uploader'] = playlist_data['uploader']
 
-    with open('test.json', 'w') as test:
-      test.write(json.dumps(json_playlists))
-
     simplified_playlist_data = []
 
     for playlist_video_item in playlist_data['entries']:
+      # Since w're usig YT_DLP now, we need to ignore unavailable videos
+        
+      if playlist_video_item is None:
+        continue # If this keyword exists, might as well use it.
+      
       # Create simplified video data dict
       simplified_playlist_data.append({
         "youtube_id": playlist_video_item['id'],
