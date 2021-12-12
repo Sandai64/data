@@ -7,6 +7,8 @@ if [ -f "./tools/_generator_lock" ]; then
   exit 0
 fi
 
+./tools/generate_playlists.py
+
 date_time=$(date '+%d/%m/%Y %H:%M:%S')
 
 echo "Running batch git commands (add, commit, push-force)"
