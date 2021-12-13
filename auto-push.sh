@@ -7,12 +7,14 @@ if [ -f "./tools/_generator_lock" ]; then
   exit 0
 fi
 
-./tools/generate_playlists.py
+current_dir=$(pwd)
+cd ./tools/
+./generate_playlists.py
 
 date_time=$(date '+%d/%m/%Y %H:%M:%S')
 
 echo "Running batch git commands (add, commit, push-force)"
-
+cd $pwd
 git add .
 git commit -am "Auto-Push: update ${date_time}"
 git push --force
