@@ -10,6 +10,7 @@ import csv
 import shutil
 import datetime
 import time
+from pyfiglet import Figlet
 
 # Running this script is going to take a LONG TIME, as such,
 # We'll put a lock file in here just so cron jobs know when not to push this repo
@@ -30,8 +31,7 @@ csv_header = [
   "uploader_name",
   "uploader_id",
   "channel_url",
-  "video_url",
-  "description"
+  "video_url"
 ]
 
 # We're starting to count time now
@@ -44,10 +44,15 @@ yt_dl_params = {
 with youtube_dl.YoutubeDL(yt_dl_params) as yt_dl:
   
   # Parsed from source JSON
-  for index, playlist_item in enumerate(json_playlists):
+  for index, playlist_item in enumerate(json_playlists):    
+    f = Figlet(font='slant')
+    print('='*46)
+    print(f.renderText(playlist_item['pretty_name']))
+    print('='*46)
+
     start_playlist_item_time = time.time()
     playlist_data = yt_dl.extract_info(playlist_item['url'], download=False)
-    
+
     # We're gonna add the playlist author to the current item in json_playlists
     json_playlists[index]['uploader'] = playlist_data['uploader']
 
@@ -69,7 +74,6 @@ with youtube_dl.YoutubeDL(yt_dl_params) as yt_dl:
         "uploader_id": playlist_video_item['uploader_id'],
         "channel_url": playlist_video_item['channel_url'],
         "video_url": playlist_video_item['webpage_url'],
-        "description": playlist_video_item['description']
       })
 
     # Serialize simplified playlist data to CSV + JSON
@@ -115,12 +119,16 @@ with youtube_dl.YoutubeDL(yt_dl_params) as yt_dl:
 with open('../v0/index.md', 'w') as endpoint_index_file:
   now = datetime.datetime.now()
   total_time_took_seconds = (time.time() - script_start_time)
-  total_time_took_formatted = str(datetime.timedelta(seconds=total_time_took_seconds))
+  total_time_took = str(datetime.timedelta(seconds=total_time_took_seconds)).split('.')[0] # Remove microseconds
+  ttts = total_time_took.split(':')
+  total_time_took_formatted = str(ttts[0] + ' hours, ' + ttts[1] + ' mins.')
 
   endpoint_index_file.write('# Endpoints\n\n')
 
   for playlist_item in json_playlists:
-    playlist_time_took_formatted = str(datetime.timedelta(seconds=playlist_item['time_took']))
+    playlist_time_took = str(datetime.timedelta(seconds=playlist_item['time_took'])).split('.')
+    ptts = playlist_time_took.split(':')
+    playlist_time_took_formatted = str(ptts[0] + ' hours, ' + ptts[1] + ' mins.')
 
     endpoint_index_file.write('- ' + playlist_item['uploader'] + ' / **' + playlist_item['pretty_name'] + '** / [YouTube link](' + playlist_item['url'] + ')\n')
     endpoint_index_file.write('\tTook ' + playlist_time_took_formatted + '\n')
