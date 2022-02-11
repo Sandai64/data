@@ -1,4 +1,10 @@
+> ## **Notice!** This API endpoint is deprecated and won't be updated anymore.
+> If you have a service subscribed to it, you should migrate to '[**v1**](../v1/)'
+
+---
 # Endpoints
+
+
 
 - **Erwan's House Stash**
 	- [CSV file](./erwan-house-stash/playlist.csv)
