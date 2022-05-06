@@ -1,0 +1,12 @@
+[
+  {
+    "url": "your-public-youtube-playlist-url",
+    "name": "lowercase-playlist-identifier",
+    "pretty_name": "Your Full Playlist Name"
+  },
+  {
+    "url": "another-public-youtube-playlist",
+    "name": "sample-id",
+    "pretty_name": "Another optional playlist"
+  }
+]
