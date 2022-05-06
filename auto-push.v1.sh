@@ -6,6 +6,8 @@ abort_script () {
   exit 1
 }
 
+echo "Checking requirements..."
+
 # Abort if Python is not installed.
 if ! command -v python3 &> /dev/null
 then
@@ -30,6 +32,8 @@ if [ -f "./tools/v1/_.lock" ]; then
   echo "Lock file present, generator already running, aborting."
   exit 0
 fi
+
+echo "Everything OK ! Running generator..."
 
 cd ./tools/v1/ || abort_script
 ./generate.py
