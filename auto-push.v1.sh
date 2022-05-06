@@ -15,6 +15,15 @@ then
   exit 2
 fi
 
+# Abort if md5sum is not installed.
+if ! command -v md5sum &> /dev/null
+then
+  echo "md5sum could not be found on this system."
+  echo "Please install md5sum."
+  echo "Aborting."
+  exit 2
+fi
+
 
 if [ -f "./tools/v1/_.lock" ]; then
   # We can't push the repo if the generator is currently running
