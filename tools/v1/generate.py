@@ -175,7 +175,9 @@ total_time_took_formatted = str(split_time[0] + 'h, ' + split_time[1] + ' mins.'
 
 endpoint_index_contents = f"""
 > Endpoints
+>
 > Script version : { script_version }
+>
 > Endpoint version : { endpoint_version }
 
 ---
@@ -188,7 +190,9 @@ for playlist_item in metadata:
 
   endpoint_index_contents += f"""
 { playlist_item['uploader'] } / **{ playlist_item['pretty_name'] }** - [link]({ playlist_item['url'] })
+
   Took { playlist_time_took_formatted }
+
   - [CSV file]({ './' + playlist_item['name'] + '/playlist.csv' })
     - [MD5]({'./' + playlist_item['name'] + '/playlist.csv.md5'})
 
