@@ -9,7 +9,7 @@
 
 Erwan / **Erwan's House Stash** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw731192i2BODMy7m5xozfWz)
 
-  Took 0 h, 55 mins.
+  Took 0 h, 39 mins.
 
   - [CSV file](./erwan-house-stash/playlist.csv)
     - [MD5](./erwan-house-stash/playlist.csv.md5)
@@ -18,7 +18,7 @@ Erwan / **Erwan's House Stash** - [link](https://youtube.com/playlist?list=PLMaR
 
 Konan Huet / **Collezione** - [link](https://youtube.com/playlist?list=PL_9XZMErmRRW3bDdiwH_HYs26A9N2lY4e)
 
-  Took 0 h, 52 mins.
+  Took 0 h, 41 mins.
 
   - [CSV file](./konan-collezione/playlist.csv)
     - [MD5](./konan-collezione/playlist.csv.md5)
@@ -27,7 +27,7 @@ Konan Huet / **Collezione** - [link](https://youtube.com/playlist?list=PL_9XZMEr
 
 Konan Huet / **Maxi Best Of** - [link](https://youtube.com/playlist?list=PL_9XZMErmRRW74Avp-Qmbiiia211XYAui)
 
-  Took 0 h, 11 mins.
+  Took 0 h, 08 mins.
 
   - [CSV file](./konan-maxi-best-of/playlist.csv)
     - [MD5](./konan-maxi-best-of/playlist.csv.md5)
@@ -45,7 +45,7 @@ Erwan / **Erwan's DnB Stash** - [link](https://youtube.com/playlist?list=PLMaR1B
 
 Erwan / **Upfront House** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw70JJLGgnel0D5tR66Dtat7)
 
-  Took 0 h, 12 mins.
+  Took 0 h, 09 mins.
 
   - [CSV file](./erwan-upfront-house/playlist.csv)
     - [MD5](./erwan-upfront-house/playlist.csv.md5)
@@ -61,5 +61,5 @@ Erwan / **Old School Bops** - [link](https://youtube.com/playlist?list=PLMaR1BCP
 
 ---
 
-- Auto-generated at : 29/05/2022 20:32:32
-- Total time took : 2h, 13 mins.
+- Auto-generated at : 16/08/2022 13:01:00
+- Total time took : 1h, 40 mins.
