@@ -7,9 +7,9 @@
 
 ---
 
-Erwan / **Erwan's House Stash** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw731192i2BODMy7m5xozfWz)
+Erwan Egasse / **Erwan's House Stash** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw731192i2BODMy7m5xozfWz)
 
-  Took 0 h, 39 mins.
+  Took 0 h, 37 mins.
 
   - [CSV file](./erwan-house-stash/playlist.csv)
     - [MD5](./erwan-house-stash/playlist.csv.md5)
@@ -18,7 +18,7 @@ Erwan / **Erwan's House Stash** - [link](https://youtube.com/playlist?list=PLMaR
 
 Konan Huet / **Collezione** - [link](https://youtube.com/playlist?list=PL_9XZMErmRRW3bDdiwH_HYs26A9N2lY4e)
 
-  Took 0 h, 41 mins.
+  Took 0 h, 40 mins.
 
   - [CSV file](./konan-collezione/playlist.csv)
     - [MD5](./konan-collezione/playlist.csv.md5)
@@ -34,7 +34,7 @@ Konan Huet / **Maxi Best Of** - [link](https://youtube.com/playlist?list=PL_9XZM
 
 ---
 
-Erwan / **Erwan's DnB Stash** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw5rNJdn5atCt8jBYDDNm6fu)
+Erwan Egasse / **Erwan's DnB Stash** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw5rNJdn5atCt8jBYDDNm6fu)
 
   Took 0 h, 01 mins.
 
@@ -43,7 +43,7 @@ Erwan / **Erwan's DnB Stash** - [link](https://youtube.com/playlist?list=PLMaR1B
 
 ---
 
-Erwan / **Upfront House** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw70JJLGgnel0D5tR66Dtat7)
+Erwan Egasse / **Upfront House** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw70JJLGgnel0D5tR66Dtat7)
 
   Took 0 h, 09 mins.
 
@@ -52,7 +52,7 @@ Erwan / **Upfront House** - [link](https://youtube.com/playlist?list=PLMaR1BCPHk
 
 ---
 
-Erwan / **Old School Bops** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw52xz2RF_kqMkferE139VGj)
+Erwan Egasse / **Old School Bops** - [link](https://youtube.com/playlist?list=PLMaR1BCPHkw52xz2RF_kqMkferE139VGj)
 
   Took 0 h, 00 mins.
 
@@ -61,5 +61,5 @@ Erwan / **Old School Bops** - [link](https://youtube.com/playlist?list=PLMaR1BCP
 
 ---
 
-- Auto-generated at : 16/08/2022 13:01:00
-- Total time took : 1h, 40 mins.
+- Auto-generated at : 19/08/2022 11:48:47
+- Total time took : 1h, 36 mins.
